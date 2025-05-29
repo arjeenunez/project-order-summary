@@ -182,6 +182,7 @@ body {
         background-image: url('../assets/pattern-background-mobile.svg');
     }
     .summary__img--container {
+        height: 160px;
         max-height: 160px;
     }
     .summary__container--content {

@@ -6,10 +6,6 @@
     --color-dark-blue: hsl(223, 47%, 23%);
 }
 
-* {
-    box-sizing: border-box;
-}
-
 html,
 body {
     height: 100%;
@@ -18,7 +14,6 @@ body {
     font-size: 16px;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
-    /* font-weight: 500, 700, 900; */
 }
 
 .wrapper {
@@ -45,6 +40,7 @@ body {
 
 .summary {
     max-width: 450px;
+    width: 100%;
     min-width: 327px;
     min-height: 567px;
     max-height: 697px;
@@ -58,7 +54,7 @@ body {
 }
 
 .summary__img--header {
-    width: 105%;
+    width: 100%;
     padding: 0;
     margin: 0;
     display: block;
